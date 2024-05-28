@@ -10,7 +10,6 @@ class BaselineModels(torch.nn.Module):
         layer_dict = {
             "GCN": GCN,
             "GraphSAGE": GraphSAGE,
-            "SGC": SGC,
             "ChebNet": ChebNet,
             "GAT": GAT,
             "APPNP": APPNP_Net
